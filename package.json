@@ -1,0 +1,22 @@
+{
+  "name": "radiohead-live-check",
+  "version": "1.0.0",
+  "description": "Polls Radiohead schedule API and alerts on changes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "chalk": "^4.1.2",
+    "nodemailer": "^6.9.7",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": ["radiohead", "schedule", "api", "polling"],
+  "author": "",
+  "license": "MIT"
+}
